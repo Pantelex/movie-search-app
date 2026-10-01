@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Search movies</h1>
+
+      <!-- Search section -->
+      <div class="search-box">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Enter movie title..." />
+        <button id="searchbtn">Search</button>
+      </div>
+
+      <div id="movies-container" class="movies-grid">
+        <!-- Movies will be dynamically inserted here via JavaScript -->
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
