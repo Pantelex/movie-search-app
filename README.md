@@ -1,7 +1,8 @@
 # Movie Search App 🎬
 
 A responsive web application built with vanilla JavaScript, HTML, and CSS that allows users to search for movies in real-time using the OMDb API.
-
+## Live Demo 🌐
+Check out the live application here: [Movie Search App Live](https://Pantelex.github.io/movie-search-app/)
 ## Features ✨
 - **Live Search:** Search for any movie by title with instant results.
 - **Dynamic DOM Manipulation:** Cleanly renders movie cards containing posters, titles, and release years.
